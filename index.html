@@ -12,7 +12,7 @@
 
   <!-- NAV -->
   <nav id="navbar">
-    <a href="#" class="nav-logo">AM</a>
+    <a href="#inicio" class="nav-logo">AM</a>
     <ul class="nav-links">
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#projetos">Projetos</a></li>
@@ -46,8 +46,11 @@
             <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </a>
-        <a href="mailto: anthonysantosmachado159@gmail.com" class="btn-secondary">
+        <a href="mailto:anthonysantosmachado159@gmail.com?subject=Olá Anthony!&body=Tenho interesse em um projeto..." class="btn-secondary">
           Fale comigo
+        </a>
+        <a href="https://wa.me/5511942972801?text=Olá Anthony, gostaria de conversar sobre um projeto" class="btn-secondary">
+          WhatsApp
         </a>
       </div>
     </div>
@@ -121,6 +124,84 @@
       </a>
     </div>
 
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre mim</h2>
+      <p class="section-text">
+        Sou Anthony, desenvolvedor em formação com foco em Full Stack. Concluí o Ensino Médio Técnico em Desenvolvimento de Sistemas e atualmente curso Full Stack Python na EBAC, onde estou aprofundando meus conhecimentos tanto em front-end quanto em back-end. Tenho base sólida em Python, JavaScript, HTML e CSS, SQL e PHP. Estou desenvolvendo habilidades em criação de interfaces responsivas, lógica de programação, manipulação de banco de dados e integração entre front-end e back-end. Gosto de construir soluções completas, com código organizado e atenção aos detalhes. Estou constantemente praticando e aprimorando minhas competências técnicas por meio de projetos práticos e estudo contínuo.
+      </p>
+      <div class="skills-list">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">Django</div>
+        <div class="skill-item">SQL</div>
+        <div class="skill-item">PHP</div>
+        <div class="skill-item">Responsividade</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <h2 class="section-title">Meus Projetos</h2>
+      <ul class="projetos-list">
+        <li>
+          <a href="https://ebookconrado.free.nf" target="_blank">
+            <strong>Biblioteca Escolar</strong>
+            <span class="projeto-descricao"> - Meu primeiro projeto em equipe, comigo sendo do grupo do Back-end. Fez parte do TCC do meu Ensino Médio com Técnico, atualmente no ar em domínio da escola E.E Padre Conrado, em Guarulhos.</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://anthonyth159.github.io/xmen-szpc/" target="_blank">
+            <strong>Seleção de Personagens</strong>
+            <span class="projeto-descricao"> - Meu primeiro projeto de fato, aos 15 anos buscava saber mais sobre programação, então, participei de um evento no youtube que ensinava o básico de HTML, CSS e JavaScript.</span>
+          </a>
+        </li>
+        <!--<li>
+          <a href="#" target="_blank">
+            <strong>Seu Projeto 3</strong>
+            <span class="projeto-descricao"> - Descrição do projeto</span>
+          </a>
+        </li>
+      </ul>
+      <p class="projeto-vazio">Atualize os links e descrições dos seus projetos acima!</p>
+    </div>
+  </section> -->
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <h2 class="section-title">Vamos conversar?</h2>
+      
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Seu nome" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Seu email" required>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Enviar mensagem</button>
+      </form>
+
+      <div class="contact-channels">
+        <h3>Outras formas de me encontrar:</h3>
+        <div class="contact-buttons">
+          <a href="mailto:anthonysantosmachado159@gmail.com" class="contact-btn">Email</a>
+          <a href="https://wa.me/5511942972801?text=Olá Anthony, gostaria de conversar sobre um projeto" class="contact-btn">WhatsApp</a>
+          <a href="https://github.com/AnthonyTH159" target="_blank" class="contact-btn">GitHub</a>
+          <!--<a href="https://linkedin.com/in/seu-perfil" target="_blank" class="contact-btn">LinkedIn</a> -->
+        </div>
+      </div>
+    </div>
   </section>
 
   <script src="js/main.js"></script>
